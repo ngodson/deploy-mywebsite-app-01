@@ -1,0 +1,28 @@
+body{
+    font-family: 'Roboto Serif', serif;
+   
+}
+.headerName{
+    font-family: 'Dancing Script', cursive;
+}
+
+h1{
+    font-family: serif;
+}
+
+h5{
+    font-family: serif;
+}
+
+.contactAlert{
+    position:absolute;
+    bottom: 470px;
+    right: 610px;
+    font-family: serif;
+}
+
+li{
+    font-family: serif;
+    font-size: 15px;
+}
+

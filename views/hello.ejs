@@ -1,0 +1,248 @@
+<%- include("partials/header.ejs"); -%>
+
+
+
+          <!-- Hello Menu -->
+          <section class="p-5" id="/">
+            <div class="container pt-5">
+                <div class="d-sm-flex align-items-center justify-content-between">
+                    <div><h1>I am Godson Nnanyerugo<span class="text-primary">.</span></h1>
+                        <p class="lead">A software Developer located in Lagos, Nigeria. <br />
+                        With experiences in IT and Logistics having worked <br /> in a financial house for four years as mid-level <br />network administrator and three and a half years as a logistics manager.<br />  
+                        I am looking to take on more work as a software developer <br />and to increase my skills as a Web Developer.</p>    
+                        <table class="table table-borderless table-sm">
+                            <tr><th class="fw-bold">Phone:</th>
+                            <th class="fw-semibold text-warning">07045983504</th> </tr>
+                            <tr><th class="fw-bold">Email:</th>
+                                <th class="fw-semibold text-warning">ngodson@outlook.com</th> </tr>
+                          </table>
+                          <p>
+                            <br />
+
+                            <button class="btn btn-primary btn-md" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-flip" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M11 1H5a1 1 0 0 0-1 1v6a.5.5 0 0 1-1 0V2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v6a.5.5 0 0 1-1 0V2a1 1 0 0 0-1-1Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-2a.5.5 0 0 0-1 0v2a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-2a.5.5 0 0 0-1 0v2ZM1.713 7.954a.5.5 0 1 0-.419-.908c-.347.16-.654.348-.882.57C.184 7.842 0 8.139 0 8.5c0 .546.408.94.823 1.201.44.278 1.043.51 1.745.696C3.978 10.773 5.898 11 8 11c.099 0 .197 0 .294-.002l-1.148 1.148a.5.5 0 0 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2a.5.5 0 1 0-.708.708l1.145 1.144L8 10c-2.04 0-3.87-.221-5.174-.569-.656-.175-1.151-.374-1.47-.575C1.012 8.639 1 8.506 1 8.5c0-.003 0-.059.112-.17.115-.112.31-.242.6-.376Zm12.993-.908a.5.5 0 0 0-.419.908c.292.134.486.264.6.377.113.11.113.166.113.169 0 .003 0 .065-.13.187-.132.122-.352.26-.677.4-.645.28-1.596.523-2.763.687a.5.5 0 0 0 .14.99c1.212-.17 2.26-.43 3.02-.758.38-.164.713-.357.96-.587.246-.229.45-.537.45-.919 0-.362-.184-.66-.412-.883-.228-.223-.535-.411-.882-.571ZM7.5 2a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1Z"/>
+                              </svg> <a href="#Cnt" class="text-light text-decoration-none">Contact ME</a> </button>
+
+
+                          <button class="btn btn-warning btn-md" data-bs-toggle="modal" data-bs-target="#downloadCV" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M3.5 10a.5.5 0 0 1-.5-.5v-8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 0 0 1h2A1.5 1.5 0 0 0 14 9.5v-8A1.5 1.5 0 0 0 12.5 0h-9A1.5 1.5 0 0 0 2 1.5v8A1.5 1.5 0 0 0 3.5 11h2a.5.5 0 0 0 0-1h-2z"/>
+                            <path fill-rule="evenodd" d="M7.646 15.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 14.293V5.5a.5.5 0 0 0-1 0v8.793l-2.146-2.147a.5.5 0 0 0-.708.708l3 3z"/>
+                          </svg> Download CV</button>
+                        </p>
+                        <!-- Modal -->
+<div class="modal fade" id="downloadCV" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-primary" id="exampleModalLabel">ACCESS TOKEN</h5>
+        
+      </div>
+       <!-- Link to get token access -->
+      <form method="post" action="/cvAcess">
+      <div class="modal-body">
+        <div class="form-group mx-sm-3 mb-2">
+          <label for="inputPassword2" class="sr-only">Password</label>
+          <input name="password" type="password" class="form-control" id="inputPassword2" placeholder="Password" required>
+        </div>
+      </div>
+     
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
+                    </div>
+                    <div class="shadow-sm p-3 bg-body w-50 text-center border border-1">
+                    <img class="img-fluid " src="images/mirrorImage.jpg" alt="myp pic">
+                  </div>
+                  </div>
+
+            </div>
+          </section >
+
+            
+            
+            <!-- Skills section -->
+          
+
+          <section class=" shadow-sm p-3 mb-5 bg-body rounded" id="Skills">
+            <div class="container pt-5">
+              <div class="d-sm-flex  justify-content-between">
+                <div><h1>Skills<span class="text-primary">.</span></h1>
+                <p>I am inspired by creating great work with people who are as passionate as I am about building something awesome.</p>
+                
+                <img  src="images/siteflowLogo.jpg">
+              </div>
+              
+                <div class="card-group w-40">
+                  <div class="card ms-4 border ">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYlnLVpgDcNfyD_-5O4H5YKLTbLZxRZDY99Q&usqp=CAU" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Web Developement</h5>
+                      <p class="card-text">Html, Css, Bootstrap, Jquery, Javascript, nodejs, expressjs, mongodb, sql</p>
+                      <div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card ms-4 border">
+                    <img src="images/serverImage.jpg" class="card-img-top" alt="Network Image">
+                    <div class="card-body">
+                      <h5 class="card-title">Networking</h5>
+                      <p class="card-text">Windows Server 2003 - 2008 - 2012R2, Exchange Server 2008R2, Cisco router, Wireshark, Active Directory, Azure Cloud Services, Virtual Machines.</p>
+                      
+                    </div>
+                  </div>
+                  <div class="card ms-4 border ">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRza__Bm2rLOUefaRrfC-CZPJmfRK0HMfM4Bg&usqp=CAU" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Logistics</h5>
+                      <p class="card-text">Stock Taking, Dispatch Service, Stock picking, Truck Management, Warehouse Management, Inventory</p>
+                      
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+          </section>
+
+          <!-- Experience Section -->
+
+          <section class=" shadow-sm p-3 mb-5 bg-body rounded" id="Experience">
+            <div class="container pt-2 ">
+              <div class="d-sm-flex  justify-content-between">
+                <div><h1>Experience<span class="text-primary">.</span></h1>
+                <p>I can't forget my first day of holding a network cable <br />
+                  to technically supporting over 3 financial branches.</p>
+                
+                <img  src="images/siteflowLogo.jpg">
+              </div>
+              <div class="card-group w-50 ">
+                <div id="testimonial-carousel" class="carousel slide bg-primary text-light rounded p-5" data-bs-ride="true" >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <h2 class="testimonial-h2">My IT journey started in 2010 as an I.T intern with Bolten White hotel and Suites Abuja. I contributed to the project of installing the entire network system, from cable crimping to server installation on the new site.</h2>
+                      
+                      <em>Intern, 2010</em>
+                    </div>
+            
+                    <div class="carousel-item">
+                      <h2 class="testimonial-h2">In 2003 i began my journey with an asset Management house where i was promoted to mid-level network administrator. 
+                        I gained a lot of knowledge in networking, server administration and databases.
+                      </h2>
+                      
+                      <em>Cowry Asset Management, Lagos</em>
+                    </div>
+                    <div class="carousel-item">
+                      <h2 class="testimonial-h2">Am currently developing softwares using html, css, bootstrap, javascript, nodejs, mongodb and sql.
+                        I enjoy every part of coding, from the front-end to the back-end and always available to learn new technologies and build new teams.
+                      </h2>
+                      
+                      <em>Software Developer, 2022</em>
+                    </div>
+            
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+
+
+
+              </div>
+
+
+              </div>
+              </div>
+              </section>
+
+          <!-- Education Section -->
+          <section class="shadow-sm p-3 mb-5 bg-body rounded" id="Education">
+
+          <div class="container pt-2" >
+            <div class="d-sm-flex  justify-content-between ">
+              <div><h1>Education<span class="text-primary">.</span></h1>
+              <p>All my life I have been driven by my strong belief that education is important.<br /> I try to learn something new every single day.</p>
+              
+              <img  src="images/siteflowLogo.jpg">
+            </div>
+            <div class="w-20 float-end m-5">
+            <div class="shadow-sm p-3 mb-5 bg-body  ">
+              <h5>Software Developement</h5><span class="text-warning">CodeOn Training Institute</span><br />
+              <em> Feb. 2022 -June. 2022</em><br />
+              Front-End Web Development, HTML 5, CSS, Bootstrap, Javascript ES6, DOM Manipulation, jQuery, Bash Command Line, Git, GitHub and Version Control, Backend Web Development, Node.js, NPM, Express.js, EJS, REST, APIs, Databases, SQL, MongoDB, Mongoose, Authentication
+            </div>
+            <div class="shadow-sm p-3 mb-5 bg-body  ">
+              <h5>Azure Cloud</h5><span class="text-warning">Udemy</span><br />
+              <em>Jan. 2022 - Feb. 2022</em><br />
+              Firm knowledg on how to manage their Azure subscriptions, create and scale virtual machines, implement storage solutions, configure virtual networking, back up and share data, connect Azure and on-premises sites, manage network traffic, implement Azure Active Directory, secure identities, and monitor your solution.
+
+
+            </div>
+            <div class="shadow-sm p-3 mb-5 bg-body  ">
+              <h5>Computer Engineering</h5><span class="text-warning">European University of Lefke</span><br />
+              <em> 2007 -2011</em><br />
+             Bsc. Computer Engineering.
+            </div>
+          </div>
+          </div>
+          </div>
+
+          </section>
+
+        <!-- Contact us -->
+        <section class="shadow-sm p-3 mb-5 bg-body rounded" id="Cnt">
+          <div class="container pt-2 ">
+            <div class="d-sm-flex  justify-content-between">
+              <div><h1>Contact <span class="text-primary">me</span><span class="text-warning">.</span></h1>
+              <p>Are you working on something great? <br />I would love to join to make it happen! <br />
+                Please drop a message<span class="text-primary">.</span></p><br /></p>
+              
+              <img  src="images/siteflowLogo.jpg">
+            </div>
+
+            <div>
+              <form method="post" action="/cnt">
+              <div class="p-1 w-40">
+               
+    <input type="text" name="name" id="form4Example1" class="form-control" placeholder="Name"/>
+              </div>
+              <div class="p-1 w-40">
+                <input type="email" name="email" id="form4Example1" class="form-control" placeholder="email"/>
+              </div>
+            
+            </div>
+            <div class="p-1 w-50">
+              <textarea name="message" class="form-control" id="form4Example3" rows="8" placeholder="Message"></textarea>
+              <div>
+              <button type="submit" class="btn btn-primary btn-block mb-4 m-2 mx-auto">
+                Send
+              </button>
+              </div>
+              <div class="alert text-bold contactAlert" role="alert">
+                <% const m=getMessages() %>
+                <% if(m.notify) { %>
+                <% m.notify.forEach((element)=>{ %>
+                  <h5 class="text-warning text-bold "><%=element%></h5>
+              <%  })  }%>
+              </div>
+            </div>
+            
+          </form>
+
+            </div>
+            </div>
+
+
+        </section>
+        
+   <%- include("partials/footer"); -%>

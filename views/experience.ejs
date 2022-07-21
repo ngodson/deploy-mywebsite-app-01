@@ -1,0 +1,14 @@
+<%- include("partials/header"); -%>
+
+<div>
+    <% images.forEach(function(image) { %>
+          <img  src="data:image/<%=image.image.contentType%>;base64,
+          <%=image.image.data.toString('base64')%>">
+    <% }); %>
+</div>
+
+
+
+
+
+<%- include("partials/header"); -%>
